@@ -47,6 +47,7 @@ a[href^="http"] {
 
 p {
     text-align: justify;
+    font-family: sans-serif;
 }
 
 .note {
@@ -63,3 +64,4 @@ p {
 .path-name {
     font-size: 20px;
 }
+
