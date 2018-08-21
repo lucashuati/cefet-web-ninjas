@@ -1,0 +1,65 @@
+body {
+    margin: 10px;
+    padding: 10px 50px;
+    background-color: orange;
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+img:not(.logo), iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: monospace;
+}
+
+a:link {
+    color: red;
+    text-decoration: blink;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: dashed;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:active {
+    color: green;
+}
+
+
+a[href^="http"] {
+    background-image: url("../img/globo.png");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+.note {
+    opacity: .8;
+}
+
+.path {
+    font-size: 40px;
+    background-color: purple;
+    padding: 2px;
+    margin: 10px;
+}
+
+.path-name {
+    font-size: 20px;
+}
